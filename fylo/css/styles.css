@@ -1,0 +1,605 @@
+body {
+  background-color: hsl(217, 28%, 15%) !important;
+  color: white !important;
+  font-size: 14px;
+  text-align: center !important;
+  height: 100vh;
+  font-family: "Open Sans" !important;
+  object-fit: cover;
+  margin-right: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  font-family: "Raleway" !important;
+}
+
+/* title */
+
+#title {
+  padding: 4% auto 0 !important;
+
+  /* margin-left: 30%; */
+  text-align: center;
+  /* margin-bottom: 5%; */
+  /* background-color: hsl(217, 28%, 15%); */
+  /* width: 50%; */
+}
+
+/* .title-bg {
+  z-index: -500;
+  position: absolute;
+  top: 31.7rem !important;
+ 
+  width: 97.9% !important;
+  overflow: hidden !important;
+} */
+
+.logo {
+  width: 60%;
+}
+
+.firstpage {
+  background: url("../images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center 120% !important;
+  margin-left: 0 !important;
+}
+
+.navbar {
+  background-color: hsl(217, 28%, 15%) !important;
+  /* margin: 2% 2% 0 5%; */
+  margin: 2% 2% 0 5%;
+}
+
+.navbar-nav {
+  margin-left: 70%;
+  margin-right: 2%;
+}
+
+.nav-link {
+  color: white;
+  font-weight: lighter;
+  margin-left: 1.5rem !important;
+}
+
+.intro-info {
+  position: relative;
+  bottom: 9rem;
+}
+
+.illustrations {
+  width: 35%;
+  margin-bottom: 12%;
+}
+
+.intro-action {
+  line-height: 1.5 !important;
+  margin-bottom: 3% !important;
+  width: 40%;
+  margin: 0 auto 0;
+}
+
+.intro-text {
+  width: 33%;
+  margin: -2% auto 2%;
+}
+
+.button {
+  border-radius: 20px !important;
+  width: 15rem;
+  padding: 1% 3% !important;
+  color: white !important;
+  background-color: hsl(176, 68%, 64%) !important;
+  font-family: "Raleway" !important;
+  font-weight: 700 !important;
+}
+
+/* middle */
+
+#middle {
+  /* margin-top: 12% !important; */
+  text-align: center !important;
+  color: hsl(218, 28%, 13%) !important;
+  color: white;
+}
+
+.container-fluid {
+  text-align: center !important;
+  color: white !important;
+  background-color: hsl(218, 28%, 13%) !important;
+}
+
+.middlerow {
+  margin: auto 3% !important;
+  background-color: hsl(218, 28%, 13%) !important;
+}
+
+.feature-icon {
+  width: 15% !important;
+  margin-bottom: 3%;
+}
+
+.feature-icon1 {
+  width: 18% !important;
+  margin-bottom: 4%;
+}
+
+.pdtive {
+  margin: 0 auto 0;
+  text-align: left;
+  padding-top: 7% !important;
+  padding-left: 5% !important;
+}
+
+.illustration2 {
+  width: 95%;
+  position: relative;
+  right: 1.5rem;
+}
+
+.pdtive-part {
+  margin-right: 10%;
+  margin-top: 7%;
+}
+
+.pdtive-info {
+  margin-top: 7%;
+  width: 60%;
+}
+
+.pdtive-text {
+  width: 102%;
+  margin-bottom: 7%;
+
+  text-align: left;
+}
+
+.firstrow {
+  margin-bottom: 3%;
+}
+
+.action {
+  color: hsl(176, 68%, 64%);
+  border-bottom: solid 1px;
+  display: inline-block;
+
+  padding: 0.5px;
+}
+
+/* testimonials */
+
+#testimonial {
+  padding: 9% 0 22% !important;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.card-deck {
+  margin: -0.7rem 3% !important;
+  padding: 0 7% !important;
+}
+
+.card {
+  /* width: 24rem; */
+  margin: auto !important;
+  text-align: left;
+  background-color: hsl(219, 30%, 18%) !important;
+  color: white;
+}
+
+.t-image {
+  width: 15% !important;
+  border-radius: 50% !important;
+  /* margin-top: 1rem !important; */
+  margin-left: 0.3rem;
+  position: relative;
+  top: 0.3rem;
+}
+
+.img-quotes {
+  margin-right: 74.8%;
+  position: relative;
+  bottom: 5%;
+}
+
+.t-location {
+  margin-left: 3.3rem !important;
+  margin-top: 0 !important;
+  font-weight: lighter !important;
+  font-size: 14px !important;
+}
+
+.t-name {
+  margin-bottom: 0 !important;
+  line-height: 0;
+}
+
+/* bottom and footer*/
+
+footer {
+  background-color: hsl(216, 53%, 9%) !important;
+  padding-bottom: 6%;
+}
+/* #footer {
+  background-color: hsl(216, 53%, 9%);
+} */
+
+.bottom-card {
+  padding: 3%;
+  position: relative;
+  bottom: 50%;
+  text-align: center;
+  width: 110%;
+  justify-content: center;
+  margin-left: 47% !important;
+}
+
+.bottom-text {
+  font-size: 12px;
+  margin: auto;
+  width: 75%;
+}
+
+.bottom-signup {
+  padding-top: 6%;
+}
+
+.bottom-button {
+  border-radius: 20px !important;
+  padding: 3% 1.4rem !important;
+  display: inline-block !important;
+  background-color: hsl(176, 68%, 64%) !important;
+  color: white !important;
+  margin-left: 44%;
+  font-weight: 700;
+  font-size: 12px !important;
+  margin-top: 2%;
+}
+
+form {
+  border-radius: 30% !important;
+}
+
+.bottom-input {
+  width: 140% !important;
+  /* margin-left: 5%; */
+  /* -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50% !important; */
+  border-radius: 50% !important;
+  display: inline-block !important;
+  margin-top: 0.3%;
+}
+
+input[type="email"] {
+  margin-right: 22%;
+  margin-left: 6% !important;
+  padding: 3% 65% 3% 5%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-align: center !important;
+}
+
+ul {
+  list-style: none;
+}
+
+/* main footer */
+
+.bottom-logo {
+  position: relative;
+  bottom: 2rem;
+  right: 4rem;
+  margin-bottom: 0;
+}
+
+.f-row {
+  margin-top: 1rem !important;
+  margin-right: 0;
+}
+
+.footer-info {
+  margin-right: 7rem !important;
+  width: 130% !important;
+  text-align: left !important;
+  margin: auto;
+  position: relative;
+  right: 2rem;
+}
+.f-column {
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+
+.f-icon {
+  margin-right: 10% !important;
+}
+
+.f-contact {
+  margin-right: 2.5% !important;
+}
+/* 
+.f-column {
+  margin-left: 0 !important;
+  position: relative !important;
+  right: 1.55rem !important;
+} */
+
+.f-nav {
+  padding-bottom: 0.8rem;
+  text-align: left !important;
+}
+
+.f-icons {
+  position: relative !important;
+  left: 4rem;
+}
+
+.f-icon2 {
+  margin-right: 12px;
+  border: solid 0.1px white;
+  border-radius: 60%;
+  padding: 5%;
+}
+
+.f-twitter {
+  position: relative !important;
+  left: 0.1rem !important;
+  padding: 4% 6% !important;
+}
+
+/* .f-icn {
+  padding: 0.3% 0.5% !important;
+} */
+
+.f-fb {
+  padding: 4% 6% !important;
+}
+
+.f-ig {
+  padding: 4% 6% !important;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 12px !important;
+    margin-right: 0 !important;
+  }
+
+  #title {
+    padding-top: 5% !important;
+  }
+
+  #nav {
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+  }
+
+  #middle {
+    padding-top: 0 !important;
+  }
+
+  .navbar {
+    margin-left: 0 !important;
+    text-align: left !important;
+  }
+
+  .illustrations {
+    width: 90%;
+    margin-bottom: 0 !important;
+    position: relative;
+    bottom: 4rem;
+  }
+
+  .intro-action {
+    width: 80%;
+    font-size: 25px;
+    position: relative !important;
+    bottom: 5rem !important;
+  }
+  .firstpage {
+    padding-top: 10% !important;
+    background: url("../images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center 42% !important;
+    margin-right: 0 !important;
+    /* position: relative;
+    bottom: 1rem !important; */
+  }
+  .intro-text {
+    width: 80%;
+    padding-bottom: 2rem;
+    position: relative !important;
+    bottom: 4rem !important;
+
+    /* margin-bottom: 5%; */
+  }
+  .intro-info {
+    position: relative !important;
+    top: 2rem;
+    background-color: hsl(218, 28%, 13%);
+  }
+  .button {
+    margin-bottom: 3rem !important;
+    padding: 3.3% 3% !important;
+    position: relative !important;
+    bottom: 4rem !important;
+  }
+
+  /* .intro-again {
+    position: relative !important;
+    top: 2rem;
+  } */
+
+  #middle {
+    padding-top: 5% !important;
+  }
+
+  .middlerow {
+    padding-bottom: 22% !important;
+  }
+
+  .illustration2 {
+    padding-left: 18% !important;
+    width: 105%;
+    padding-bottom: 3%;
+  }
+
+  /* .pdtive-part {
+    text-align: center !important;
+  } */
+  .pdtive-info {
+    width: 120%;
+    font-size: 18.5px;
+  }
+
+  .pdtive-text {
+    text-align: left;
+    width: 90% !important;
+  }
+
+  .action {
+    text-align: left;
+  }
+
+  .img-quotes {
+    margin-right: 60%;
+    width: 5%;
+
+    position: relative !important;
+    bottom: 0.6rem !important;
+  }
+  .testimonial-column {
+    padding-bottom: 5%;
+  }
+  .t-name {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .t-image {
+    width: 12% !important;
+    margin-right: 6.3%;
+    padding-bottom: 3%;
+  }
+  .t-location {
+    font-size: 10px !important;
+    font-weight: lighter;
+    /* padding-top: 20% !important; */
+  }
+
+  #testimonial {
+    padding-bottom: 100% !important;
+  }
+  .bottom-card {
+    margin-left: 10% !important;
+    width: 80%;
+    position: relative;
+    bottom: 50%;
+  }
+
+  .bottom-text {
+    width: 100%;
+    padding-bottom: 5%;
+  }
+  .bottom-input {
+    width: 110% !important;
+    margin-right: 3% !important;
+  }
+
+  input[type="email"] {
+    padding: 6.8% 50% 4% 6.8% !important;
+    border-radius: 90px;
+    box-sizing: border-box;
+    font-size: 10px;
+    position: relative;
+    right: 1.7rem;
+  }
+  .bottom-button {
+    border-radius: 90px !important;
+    padding: 4% 7% !important;
+    display: inline-block !important;
+    background-color: hsl(176, 68%, 64%) !important;
+    color: white !important;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14px !important;
+    position: relative;
+    right: 0.6rem;
+    margin-left: 0 !important;
+    width: 110%;
+    margin-top: 3%;
+  }
+
+  .footer-info {
+    text-align: left !important;
+    position: relative;
+    left: 64%;
+    bottom: 1.4rem;
+    width: 405% !important;
+    padding-left: 1.7rem !important;
+  }
+
+  .f-location {
+    position: relative !important;
+    right: 9rem !important;
+    padding-left: 4rem !important;
+  }
+
+  .f-row {
+    margin: 0 !important;
+  }
+  .bottom-logo {
+    position: relative;
+    bottom: 2rem;
+    /* right: 3rem; */
+    margin-bottom: 0;
+    padding-left: 2.4rem !important;
+  }
+  .f-column {
+    position: relative;
+    right: 6rem;
+    padding-bottom: 4rem !important;
+    padding-left: 4rem !important;
+  }
+  .f-contact {
+    margin-left: -1rem !important;
+    padding-bottom: 3% !important;
+  }
+  .f-icons {
+    padding-top: 5rem !important;
+    position: relative !important;
+    left: 0.6rem;
+    padding-bottom: 2rem;
+  }
+
+  .f-icon2 {
+    margin-right: 12px;
+    border: solid 0.1px white;
+    border-radius: 60%;
+    padding: 0 !important ;
+  }
+
+  .f-twitter {
+    position: relative !important;
+    left: 0.1rem !important;
+    padding: 1% 2% !important;
+  }
+
+  .f-icn {
+    padding: 0 !important;
+  }
+
+  .f-fb {
+    padding: 1% 2% !important;
+  }
+
+  .f-ig {
+    padding: 1% 2% !important;
+  }
+}
